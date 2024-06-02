@@ -87,7 +87,7 @@
 
     <form method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="city">City :</label>
-        <input type="text" id="city" name="city" value="<?php echo isset($_GET['city']) ? $_GET['city'] : ''; ?>">
+        <input type="text" id="city" name="city">
         <button type="submit">Submit</button>
     </form>
 
