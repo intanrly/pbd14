@@ -100,6 +100,9 @@
         a:hover {
             background-color: #045f5f;
         }
+        button:hover {
+            background-color: #045f5f;
+        }
     </style>
 </head>
 <body>
