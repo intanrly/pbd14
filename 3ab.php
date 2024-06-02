@@ -81,6 +81,34 @@
     tr:hover {
         background-color: #ddd;
     }
+    @media (max-width: 560px) {
+            .writing {
+                width: 96%;
+            }
+        }
+        .background-oregon-grapes {
+            background-color: rgb(5, 79, 79);
+            background-size: 100%;
+            height: 420px;
+            width: 420px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        @media (max-width: 767px) {
+            .background-oregon-grapes {
+                height: 330px;
+                width: 330px;
+            }
+        }
+        img {
+            height: 100%;
+            width: 100%;
+        }
 </style>
 <body>
     <h1>Customer Name by City</h1>
@@ -179,5 +207,8 @@
 
     $conn->close();
     ?>
+    <div class="background-oregon-grapes">
+        <img src="https://aeoneal.com/imagery/brain-reverse-cutout.svg">
+    </div>
 </body>
 </html>
