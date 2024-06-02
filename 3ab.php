@@ -236,6 +236,7 @@
 
     $conn->close();
     ?>
+    <a href="http://intanrly.alwaysdata.net/pbd14/utama.html" class="btn">Back To Home</a>
     <div class="background-oregon-grapes">
         <img src="https://aeoneal.com/imagery/brain-reverse-cutout.svg">
     </div>
