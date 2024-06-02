@@ -87,7 +87,7 @@
             }
         }
         .background-oregon-grapes {
-            background-color: rgb(5, 79, 79);
+            background-color: #0e4c92;
             background-size: 100%;
             height: 420px;
             width: 420px;
