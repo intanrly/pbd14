@@ -138,6 +138,25 @@
     tr:hover {
         background-color: #ddd;
     }
+     a {
+        margin-top: 20px;
+        float: center;
+    }
+
+    a {
+        display: inline-block;
+        background-color: rgb(114, 47, 55);
+        color: white;
+        text-decoration: none;
+        padding: 8px 10px;
+        border-radius: 10px;
+        margin: 10 0px;
+        transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+        background-color: #87cdee;
+    }
 </style>
 <body>
     <h1>Customer Name by City</h1>
