@@ -116,6 +116,9 @@
         a:hover {
             background-color: #fadadd;
         }
+        button:hover {
+            background-color: #fadadd;
+        }
     </style>
 </head>
 <body>
