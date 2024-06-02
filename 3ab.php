@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|PT+Mono" rel="stylesheet">
     <title>Customer List by City</title>
 </head>
 <style>
-    p {
-        color: #ffffff;
-    }
     form {
         margin-top: 20px;
     }
@@ -65,11 +65,6 @@
     padding-bottom: 25px;
     color: rgb(53, 162, 162);
     }
-    
-    p {
-        color: #ffffff;
-    }
-
     h1 {
         color: #0e4c92; 
     }
