@@ -7,6 +7,68 @@
     p {
         color: #ffffff;
     }
+    form {
+        margin-top: 20px;
+    }
+    body {
+        background: #fff;
+        color: #222;
+        font-family: 'Source Sans Pro', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .code {
+        font-family: 'PT Mono', serif;
+        color: #090;
+    }
+    .writing {
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    @media (max-width: 560px) {
+        .writing {
+            width: 96%;
+        }
+    }
+    .background-oregon-grapes {
+        background-color: #0e4c92;
+        background-size: 100%;
+        height: 420px;
+        width: 420px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    @media (max-width: 767px) {
+        .background-oregon-grapes {
+            height: 330px;
+            width: 330px;
+        }
+    }
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    h1 {
+        color: #0e4c92;
+    }
+
+    p {
+    padding-bottom: 25px;
+    color: rgb(53, 162, 162);
+    }
+    
+    p {
+        color: #ffffff;
+    }
 
     h1 {
         color: #0e4c92; 
@@ -81,34 +143,6 @@
     tr:hover {
         background-color: #ddd;
     }
-    @media (max-width: 560px) {
-            .writing {
-                width: 96%;
-            }
-        }
-        .background-oregon-grapes {
-            background-color: #0e4c92;
-            background-size: 100%;
-            height: 420px;
-            width: 420px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 50px;
-        }
-        @media (max-width: 767px) {
-            .background-oregon-grapes {
-                height: 330px;
-                width: 330px;
-            }
-        }
-        img {
-            height: 100%;
-            width: 100%;
-        }
 </style>
 <body>
     <h1>Customer Name by City</h1>
