@@ -157,6 +157,9 @@
     a:hover {
         background-color: #87cdee;
     }
+    button:hover {
+        background-color: #87cdee;
+    }
 </style>
 <body>
     <h1>Customer Name by City</h1>
