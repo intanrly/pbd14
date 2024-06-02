@@ -145,7 +145,7 @@
 
     a {
         display: inline-block;
-        background-color: rgb(114, 47, 55);
+        background-color: #0e4c92;
         color: white;
         text-decoration: none;
         padding: 8px 10px;
