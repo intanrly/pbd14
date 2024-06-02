@@ -138,11 +138,11 @@
 
     <?php
     // Koneksi ke database
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "classicmodels";
-    $port = 3307;
+    $servername = "mysql-intanrly.alwaysdata.net";
+    $username = "intanrly";
+    $password = "pbdcoba";
+    $dbname = "intanrly_pbd14";
+    $port = 3306;
 
     $conn = new mysqli($servername, $username, $password, $dbname, $port);
 
